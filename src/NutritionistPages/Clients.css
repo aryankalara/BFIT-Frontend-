@@ -1,0 +1,91 @@
+/* Styling for the main container */
+.clients-container {
+    font-family: 'Arial', sans-serif;
+    color: white;
+    background-color: black; /* Black background for the page */
+    padding: 20px;
+    border-radius: 10px;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.8);
+  }
+  
+  /* Heading styles */
+  .clients-container h3 {
+    text-align: center;
+    font-size: 2rem;
+    margin-bottom: 20px;
+    color: #ff0000; /* Bright red text for the heading */
+    text-shadow: 2px 2px 5px rgba(0, 0, 0, 0.5);
+  }
+  
+  /* Table styles */
+  .clients-table {
+    width: 100%;
+    border-collapse: collapse;
+    margin: 0 auto;
+    background-color: #1a1a1a; /* Dark background for the table */
+    box-shadow: 0 4px 10px rgba(255, 0, 0, 0.4);
+    overflow: hidden;
+    border-radius: 10px;
+  }
+  
+  /* Table header styles */
+  .clients-table thead th {
+    background-color: #ff0000; /* Bright red header background */
+    color: white; /* White text for the header */
+    padding: 10px;
+    font-size: 1rem;
+    text-transform: uppercase;
+    border: 1px solid #ff5555; /* Slightly lighter red border */
+  }
+  
+  /* Table body styles */
+  .clients-table tbody tr {
+    transition: background-color 0.3s ease-in-out;
+  }
+  
+  .clients-table tbody tr:nth-child(even) {
+    background-color: #262626; /* Slightly lighter black for even rows */
+  }
+  
+  .clients-table tbody tr:nth-child(odd) {
+    background-color: #1a1a1a; /* Slightly darker black for odd rows */
+  }
+  
+  .clients-table tbody td {
+    color: #ffffff; /* White text for table rows */
+    padding: 10px;
+    border: 1px solid #ff3333; /* Lighter red borders */
+    text-align: center;
+  }
+  
+  /* Hover effect for rows */
+  .clients-table tbody tr:hover {
+    background-color: #ff0000; /* Bright red for hover */
+    color: black; /* Black text when hovered */
+    cursor: pointer;
+  }
+  
+  /* Button styles */
+  button {
+    background-color: #ff0000; /* Bright red background for buttons */
+    color: white;
+    border: none;
+    padding: 8px 12px;
+    font-size: 0.9rem;
+    font-weight: bold;
+    border-radius: 5px;
+    cursor: pointer;
+    transition: background-color 0.3s ease-in-out;
+    box-shadow: 0 2px 5px rgba(255, 0, 0, 0.3);
+  }
+  
+  button:hover {
+    background-color: #cc0000; /* Darker red on hover */
+    box-shadow: 0 4px 8px rgba(255, 0, 0, 0.5);
+  }
+  
+  button:active {
+    background-color: #990000; /* Even darker red when clicked */
+    transform: translateY(2px);
+  }
+  

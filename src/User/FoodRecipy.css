@@ -1,0 +1,71 @@
+/* FoodRecipy.css */
+
+.recipe-container {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    padding: 50px 20px;
+    background-color: #000;
+    color: #fff;
+  }
+  
+  .recipe-container h3 {
+    font-size: 2.5em;
+    font-weight: bold;
+    color: #ff4b4b; /* Red color for title */
+    margin-bottom: 10px;
+  }
+  
+  .recipe-container p {
+    font-size: 1.2em;
+    color: #aaa;
+    margin-bottom: 30px;
+  }.search-form {
+    display: flex;
+    justify-content: center;
+    width: 100%;
+    max-width: 500px;
+    position: relative;
+  }
+  
+  .search-form input[type="text"] {
+    width: 100%;
+    padding: 15px;
+    border-radius: 30px;
+    border: 2px solid #ff4b4b;
+    outline: none;
+    font-size: 1.1em;
+    background-color: #1a1a2e;
+    color: #fff;
+    transition: width 0.4s ease, border-color 0.3s;
+  }
+  
+  .search-form input[type="text"]::placeholder {
+    color: #bbb;
+  }
+  
+  /* Pop-up effect when input is focused */
+  .search-form input[type="text"]:focus {
+    width: 120%;
+    max-width: 600px;
+    border-color: #800000;
+  }
+  
+  .search-form input[type="submit"] {
+    padding: 15px;
+    background-color: #ff4b4b;
+    border: 2px solid #ff4b4b;
+    color: #fff;
+    cursor: pointer;
+    font-size: 1.1em;
+    border-radius: 30px;
+    margin-left: -2px;
+    transition: background-color 0.3s;
+  }
+  
+  .search-form input[type="submit"]:hover {
+    background-color: #ff6b6b;
+  }
+  
+  
+  

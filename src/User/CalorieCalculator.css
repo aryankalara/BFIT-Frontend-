@@ -1,0 +1,64 @@
+/* CalorieCalculator.css */
+
+body
+{
+  background-color: #131317;
+}
+.calorie-calculator-container {
+  max-width: 600px;
+  margin: 0 auto;
+  text-align: center;
+  padding: 20px;
+  border-radius: 8px;
+  background-color: #1a1a2e; /* Dark background color */
+  color: #f8f9fa; /* Light text color */
+  box-shadow: 0 4px 8px rgba(0, 0, 0, 0.5);
+}
+
+.calorie-calculator-container h2 {
+  color: #ff4b4b; /* Red color for headings */
+  font-size: 2em;
+  margin-bottom: 15px;
+}
+
+.calorie-table table {
+  width: 100%;
+  border-collapse: collapse;
+  margin-top: 20px;
+}
+
+.calorie-table th, .calorie-table td {
+  padding: 12px;
+  border: 1px solid #333; /* Darker border for contrast */
+  text-align: left;
+  color: #f8f9fa; /* Light text color for table cells */
+}
+
+.calorie-table th {
+  background-color: #ff4b4b; /* Red header background */
+  color: #fff;
+}
+
+.calorie-table tbody tr:nth-child(even) {
+  background-color: #ff4b4b; /* Slightly lighter dark color for alternate rows */
+}
+
+.total-row td {
+  font-weight: bold;
+  color: #ff4b4b; /* Red color for total row */
+}
+
+.btn {
+  display: inline-block;
+  margin-top: 20px;
+  padding: 10px 20px;
+  background-color: #ff4b4b; /* Red button color */
+  color: #fff;
+  text-decoration: none;
+  border-radius: 4px;
+  transition: background-color 0.3s ease;
+}
+
+.btn:hover {
+  background-color: #ff6b6b; /* Lighter red on hover */
+}
